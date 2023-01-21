@@ -28,12 +28,12 @@ fs.appendFile('employees.json' , '\n{"name": "Employee 2 Name", "salary": 3000} 
     };
 })
 
-// DELETE
+// // DELETE
 
-fs.unlink('employees.json' , (err) =>{
-    if(err) {
-        console.log(err);
-    }
-})
+// fs.unlink('employees.json' , (err) =>{
+//     if(err) {
+//         console.log(err);
+//     }
+// })
 
 
